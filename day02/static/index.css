@@ -1,0 +1,35 @@
+/* div{
+    width: 150px;
+    height: 150px !important;
+    background-color: beige ;
+}
+
+.container{
+    width: 200px;
+    height: 200px !important;
+    background-color: aqua;
+}
+
+#div1{
+    width: 300px;
+} */
+
+
+body{
+    /* width: 200px; */
+    /* height: 200px; */
+    /* background-color: aqua; */
+    background-image: url('http://by-image.oss-cn-shanghai.aliyuncs.com/Pre/drumkit/cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 500px;
+    background-color: aqua;
+    text-indent:2;
+    /* text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    text-decoration:line-through; */
+}
