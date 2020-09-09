@@ -68,13 +68,6 @@
     border:1px solid black;
 }
 
-.child{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    /* margin-top:50px;
-    margin-left: 50px; */
-}
 
 .div1{
     width: 100px;
@@ -100,3 +93,23 @@ img{
     display: inline-block;
 }
 
+
+/* .parent h1{
+    background-color: aqua;
+    font-size: 20px;
+} */
+
+.parent>.div2>h1{
+    background-color: aqua; 
+    font-size: 20px;
+}
+
+/* h1.child{
+    background-color: aqua; 
+    font-size: 20px; 
+} */
+
+/* div,h1{
+    background-color: red; 
+    font-size: 20px; 
+} */
