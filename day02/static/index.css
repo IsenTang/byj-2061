@@ -1,6 +1,10 @@
-html{
-    /* font-size: 30px; */
+*{
+    margin:0;
+    padding:0;
 }
+/* html{ */
+    /* font-size: 30px; */
+/* } */
 /* div{
     width: 150px;
     height: 150px !important;
@@ -18,26 +22,51 @@ html{
 } */
 
 
-body{
+/* body{ */
     /* width: 200px; */
     /* height: 200px; */
     /* background-color: aqua; */
     /* background-image: url('http://by-image.oss-cn-shanghai.aliyuncs.com/Pre/drumkit/cover.jpg');
     background-size: cover;
     background-repeat: no-repeat; */
-}
+/* } */
 
-.container{
-    width: 500px;
-    background-color: aqua;
+/* .container{ */
+    /* width: 500px;
+    background-color: aqua; */
     /* text-indent:50px; */
     /* text-align: center;
     word-spacing: 10px;
     letter-spacing: 10px;
     text-decoration:line-through; */
-    font-size:30px;
+    /* font-size:30px; */
     /* font-weight:500; */
-    font-style:italic;
+    /* font-style:italic;
     font-family:'Times New Roman', Times, serif;
-    border:1px dashed black;
+    border:1px dashed black; */
+/* } */
+
+
+.container{
+    /* width: 300px;
+    height: 300px;
+    background-color: aqua;
+    padding-top:50px; */
+    /* padding-left:50px;
+    padding-bottom:50px;
+    padding-right:50px;
+    border:1px solid black; */
+    /* margin-left:100px; */
+    /* margin-right:100px; */
+    /* margin-bottom:100px; */
+    /* height: 100vh;
+    background-color: aqua; */
+    /* margin-top:100px;
+    margin-bottom:100px;     */
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: red;
 }
