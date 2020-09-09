@@ -1,3 +1,6 @@
+html{
+    /* font-size: 30px; */
+}
 /* div{
     width: 150px;
     height: 150px !important;
@@ -19,17 +22,22 @@ body{
     /* width: 200px; */
     /* height: 200px; */
     /* background-color: aqua; */
-    background-image: url('http://by-image.oss-cn-shanghai.aliyuncs.com/Pre/drumkit/cover.jpg');
+    /* background-image: url('http://by-image.oss-cn-shanghai.aliyuncs.com/Pre/drumkit/cover.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 .container{
     width: 500px;
     background-color: aqua;
-    text-indent:2;
+    /* text-indent:50px; */
     /* text-align: center;
     word-spacing: 10px;
     letter-spacing: 10px;
     text-decoration:line-through; */
+    font-size:30px;
+    /* font-weight:500; */
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+    border:1px dashed black;
 }
