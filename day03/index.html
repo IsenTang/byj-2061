@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        a:link{
+            color:coral
+        }
+
+        a:visited{
+            color: chartreuse;
+        }
+
+        a:hover{
+            color:aqua
+        }
+
+        a:active{
+            color:yellow
+        }
+
+        .child{
+            height: 100px;
+        }
+
+        .red{
+            background-color: red;
+        }
+
+        .yellow{
+            background-color: yellow;
+        }
+
+        .blue{
+            background-color: blue;
+        }
+
+        .parent>div:last-child{
+            background-color:aqua;
+        }
+
+        .content::before{
+            content:'';
+            background-color: aqua;
+            /* height: 100px; */
+            /* display: block; */
+        }
+
+        .content::after{
+            content:' after'
+        }
+    </style>
+</head>
+<body>
+    <!-- <a href="#">test</a>
+    <a href="#1">test</a>
+
+    <div class="parent">
+
+       <div class="child red"></div>
+       <div class="child yellow"></div>
+       <div class="child blue"></div>
+    </div> -->
+
+    <div class="content">
+        <!-- <span style="height: 100px;background-color: aqua;">before </span> -->
+        content
+        <!-- <span> after</span> -->
+    </div>
+</body>
+</html>
