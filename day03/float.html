@@ -33,11 +33,59 @@
             float:right;
             /* margin-left:-250px; */
         }
+        .top{
+            height: 50px;
+            background-color: black;
+        }
+
+        .bottom{
+            height: 400px;
+            background-color: aquamarine;
+        }
+
+        .clear{
+            clear:both;
+        }
+
+        .clearFix::after{
+            content: '';
+            clear:both;
+            display: block;
+        }
+
+        .inline-box{
+            /* display: inline-block; */
+            width: 100px;
+            height: 100px;
+            float:left
+        }
+
+        .red{
+            background-color: red;
+            height: 200px;
+        }
+
+        .blue{
+            background-color: blue;
+        }
     </style>
 </head>
 <body>
-    <div class="div3"></div>
-    <div class="div2"></div>
-    <div class="div1"></div>
+
+    <!-- <div class="top"></div>
+
+    <div class="container clearFix">
+        <div class="div3"></div>
+        <div class="div2"></div>
+        <div class="div1"></div>
+    </div> -->
+    
+    <!-- <div class="clear"></div> -->
+    <!-- <div class="bottom"></div> -->
+
+    <!-- <div style="font-size: 0px;"> -->
+        <div class="inline-box red"></div>
+        <div class="inline-box blue"></div>
+    <!-- </div> -->
 </body>
 </html>

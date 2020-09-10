@@ -44,14 +44,38 @@
         }
 
         .content::before{
-            content:'';
+            content:' before';
             background-color: aqua;
-            /* height: 100px; */
-            /* display: block; */
+            height: 100px;
+            display: block;
         }
 
-        .content::after{
+        /* .content::after{
             content:' after'
+        } */
+
+        /* .main{
+            width: 100px;
+            height: 50px;
+            border:1px solid black;
+            overflow:visible;
+        } */
+
+        .div1{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            position: relative;
+            top:20px;
+            z-index: 1;
+        }
+
+        .div2{
+            width: 100px;
+            height: 100px;
+            background-color:bisque;
+            position: relative;
+            /* z-index: 1; */
         }
     </style>
 </head>
@@ -66,10 +90,18 @@
        <div class="child blue"></div>
     </div> -->
 
-    <div class="content">
+    <!-- <div class="content"> -->
         <!-- <span style="height: 100px;background-color: aqua;">before </span> -->
-        content
-        <!-- <span> after</span> -->
-    </div>
+        <!-- content
+        <span> after</span>
+    </div> -->
+
+    <!-- <div class="main">
+
+        We are banyuan collage of IT education.
+    </div> -->
+
+    <div class="div1"></div>
+    <div class="div2"></div>
 </body>
 </html>
