@@ -29,6 +29,13 @@
             color:#313a1e;
         }
 
+        span::before{
+            content: '\"';
+        }
+
+        span::after{
+            content: '\"';
+        }
     </style>
 </head>
 <body>
@@ -38,7 +45,7 @@
         <div class="name"> John Doe & Sons </div>
     
         <div class="main-container">
-            "We highly appreaciate the enthusiasm and creative talent of the people at Legend!"
+            <span>We highly appreaciate the enthusiasm and creative talent of the people at Legend!</span>
         </div>
     </div>
 </body>
