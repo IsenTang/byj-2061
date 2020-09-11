@@ -15,8 +15,8 @@
             background-color: aqua;
             /* transition-duration: 1.5s;
             transition-property: all; */
-            animation:change 3s 1 forwards;
-            animation-delay: 2s;
+            animation:change 2s 5  alternate forwards;
+            /* animation-delay: 2s; */
         }
 
         .container:hover{
@@ -29,8 +29,13 @@
 
         @keyframes change {
             0%{}
+            25%{
+                background-color:yellowgreen;
+                transform:rotate(90deg)
+            }
             50%{
-                background-color:azure
+                background-color:red;
+                transform:rotate(45deg)
             }
             100%{
                 background-color:blueviolet
