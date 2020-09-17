@@ -21,7 +21,7 @@
 
 		<div class='test' id='test-wirte'></div>
 		<!-- 查看节点 -->
-		<input type="text" id="input" value="2222" class='input-test'>
+		<input type="text" id="input" value="11" class='input-test' style='width:100px'>
 
 		<div id='main'>
 			<div class="content red"></div>
@@ -33,8 +33,12 @@
 
 		<div id="parent">
 
-		</div>
-	</div>
+        </div>
+        
+        <button onclick="test()">测试</button>
+    </div>
+    
+    <div class="container"></div>
 </div>
 
 <script src="static/dom.js"></script>
@@ -50,5 +54,11 @@
 
 		background-color: red;
 
-	}
+    }
+    
+    .container{
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+    }
 </style>
