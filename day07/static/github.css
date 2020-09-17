@@ -5,9 +5,10 @@
 
 .header{
     height: 60px;
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .header-left{
@@ -44,6 +45,12 @@
     width: 180px;
     height: 20px;
     margin-left: 10px;
+}
+
+.header-lists{
+    display: flex;
+    /* flex-direction: column; */
+    background-color: aqua;
 }
 
 .header-li{

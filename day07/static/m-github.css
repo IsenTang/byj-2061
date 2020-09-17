@@ -1,0 +1,8 @@
+.header{
+    flex-wrap: wrap;
+}
+.header-lists{
+    flex-direction: column;
+    width: 600px;
+    order:1
+}
