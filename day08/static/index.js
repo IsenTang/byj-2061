@@ -120,9 +120,11 @@ function ajax(){
     $.ajax({
         type : "POST",
         async : true, // 设置同步方式  false代表同步步，true代表异步
-        url : 'http://192.168.10.233:10000/banyuan/ajax',
+        // url : 'http://192.168.10.233:10000/banyuan/ajax',
+        url:'http://192.168.10.233:10000/banyuan/form/action',
         data : {
-            status:'time'
+            name:document.getElementById('name').value,
+            password:document.getElementById('password').value
         },
         success : function(result) {
 
