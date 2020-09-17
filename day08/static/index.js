@@ -115,6 +115,31 @@
 // main()
 
 
+function ajax(){
 
+    $.ajax({
+        type : "POST",
+        async : true, // 设置同步方式  false代表同步步，true代表异步
+        url : 'http://192.168.10.233:10000/banyuan/ajax',
+        data : {
+            status:'time'
+        },
+        success : function(result) {
+
+            // innerHTML
+            $('.main').html("<span>成功！</span>");
+        },
+        error : function(error){
+            
+            $('.main').html("<span>失败！</span>");
+        }
+    });
+}
+
+
+function test(){
+
+    console.log(1);
+}
 
 
